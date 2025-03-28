@@ -5,7 +5,7 @@ body {
     display: flex;
 }
 .shop-header {
-    background-color: #4CAF50; /* Green background */
+    background-color: #0a0a0a; /* Green background */
     color: white; /* White text */
     text-align: center; /* Centered text */
     padding: 20px; /* Padding around the header */
