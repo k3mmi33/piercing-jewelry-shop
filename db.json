@@ -1,0 +1,176 @@
+
+     [
+      {
+        "id": 1,
+        "name": "hello kitty belly piercing",
+        "image": "♡ hello kitty belly piercing_ ♡.jpeg.jpg",
+        "price": 800.00,
+        "material": "Titanium",
+        "description": "Cute hello kitty themed belly piercing in pink and silver.",
+        "type":"belly ring"
+      },
+      {
+        "id": 2,
+        "name": "purple haze",
+        "image": "🌙.jpeg",
+        "price": 900.00,
+        "material": "Titanium",
+        "description": "Stylish purple belly ring that adds a touch of elegance.",
+        "type": "belly ring"
+      },
+      {
+        "id": 3,
+        "name": "Golden butterfly",
+        "image": "Butterfly Belly Ring_ 14k Gold Plated Belly Button Ring_ Dangly Butterfly Belly Ring_ Dangly Belly Ring_ CZ Chain Piercing_ Body Jewelry - Etsy.jpeg",
+        "price": 800.00,
+        "material": "Titanium",
+        "description": "Durable titanium body jewelry suitable for sensitive skin.",
+        "type": "belly ring"
+      },
+      {
+        "id": 4,
+        "name": "pink gold butterfly",
+        "image": "iButterfly Belly Ring, Belly bar,Navel Piercing Ring,Belly Button Ring, Body Jewelry, Heart Belly Ring, Best Gift,.jpeg",
+        "price": 500.00,
+        "material": "Stainless Steel",
+        "description": "Chic rose gold stud earrings that complement any outfit.",
+        "type": "belly ring"
+      },
+      {
+        "id": 5,
+        "name": "pink silver butterfy",
+        "image": "ed46ec12-0ad6-4387-89ea-c6e9473100a4.jpeg",
+        "price": 700.00,
+        "material": "Stainless Steel",
+        "description": "Simple and elegant stainless steel belly ring.",
+        "type": "belly ring"
+      },
+      {
+        "id": 6,
+        "name": "hibiscis shell gold",
+        "image": "/Hibiscus Shell Gold Flower Button Ring _ Dainty Minimalist Belly Rings _ Delicate Crystal Belly Ring _ Surgical Navel Ring _ Hawaii flower.jpeg",
+        "price": 800.00,
+        "material": "gold",
+        "description": "Cute floral belly piercing in pink and silver.",
+        "type":"belly ring"
+      },
+      {
+        "id": 7,
+        "name": "pink cuffs",
+        "image": "Pink Hand Cuff Belly_ 14k Gold Plated Hand Cuff Belly Ring_ Gold Navel Ring_ Body Jewelry_ Cuff Belly Piercing_ 14k Belly Ring_ Cuff Ring.jpeg",
+        "price": 900.00,
+        "material": "Titanium",
+        "description": "Stylish belly ring that adds a touch of elegance.",
+        "type": "belly ring"
+      },
+      {
+        "id": 8,
+        "name": "herbal silver",
+        "image": "old Plated Belly Button Ring_ Dangly Butterfly Belly Ring_ Dangly Belly Ring_ CZ Chain Piercing_ Body Jewelry - Etsy.jpeg",
+        "price": 800.00,
+        "material": "Titanium",
+        "description": "Durable titanium body jewelry suitable for sensitive skin.",
+        "type": "belly ring"
+      },
+      {
+        "id": 9,
+        "name": "green gold spider",
+        "image": "Spider CZ Belly Ring Naval Piercing Green Gold Dangle 316L Surgical Steel Belly Button Navel Rings 14G 10mm.jpeg",
+        "price": 500.00,
+        "material": "Stainless Steel",
+        "description": "Chic rose gold bellypiercing that complement any outfit.",
+        "type": "belly ring"
+      },
+      {
+        "id": 10,
+        "name": "silver septo septum ring",
+        "image": "⚜️SEPTO⚜️ Segmento de titânio em formato de gota….jpeg",
+        "price": 700.00,
+        "material": "Stainless Steel",
+        "description": "Simple and elegant stainless steel septum ring.",
+        "type": "septum ring"
+      },
+      {
+        "id": 11,
+        "name": "purple princess septum",
+        "image": "12 Colors 16G Dangle Diamond Septum Jewelry - silver-opal _ 8mm.jpeg",
+        "price": 800.00,
+        "material": "Titanium",
+        "description": "Cute purple and silver septum ring.",
+        "type":"septum ring"
+      },
+      {
+        "id": 12,
+        "name": "i am batman",
+        "image": "b5c3d50a-30dc-483a-9a4d-d2e4b45ddc31.jpeg",
+        "price": 900.00,
+        "material": "Titanium",
+        "description": "cool bat themed septum ring .",
+        "type": "septum ring"
+
+      },
+      {
+        "id": 13,
+        "name": "simple septum ring",
+        "image": "b8e15e21-cb15-423b-aea7-56ba69cbfde5.jpeg",
+        "price": 800.00,
+        "material": "Titanium",
+        "description": "Durable titanium septum jewelry suitable for sensitive skin.",
+        "type": "septum ring"
+      },
+      {
+        "id": 14,
+        "name": "golden septum ring",
+        "image": "RamonTribe on Instagram_ “Fresh septum piercing….jpeg",
+        "price": 500.00,
+        "material": "Stainless Steel",
+        "description": "Chic rose gold septum ring that complement any outfit.",
+        "type": "septum ring"
+      },
+      {
+        "id": 15,
+        "name": "purple silver butterfy",
+        "image": "7f1bdb30-0113-4478-aabb-46dcee77df3e.jpeg",
+        "price": 700.00,
+        "material": "Stainless Steel",
+        "description": "Simple and elegant stainless steel ear ring.",
+        "type": "ear ring"
+      },
+
+     {
+        "id": 16,
+        "name": "star ear ring",
+        "image": "",
+        "price": 800.00,
+        "material": "silver",
+        "description": "punk and silver.",
+        "type":"ear ring"
+      },
+      {
+        "id": 17,
+        "name": "golden chain collecion",
+        "image": "Discover_ the_ quiet_ elegance_ of_ our_ newest_….jpeg",
+        "price": 900.00,
+        "material": "gold",
+        "description": "Stylish ear ring that adds a touch of elegance.",
+        "type": "ear ring"
+      },
+      {
+        "id": 18,
+        "name": "y2k collection",
+        "image": "images/Nose piercing.jpeg",
+        "price": 800.00,
+        "material": "Titanium",
+        "description": "Durable titanium body jewelry suitable for sensitive skin.",
+        "type": "nose ring"
+      },
+      {
+        "id": 19,
+        "name": "golden rings",
+        "image": "Women's & Men's Clothing, Shop Online Fashion.jpeg",
+        "price": 500.00,
+        "material": "gold",
+        "description": "Chic ear rings that complement any outfit.",
+        "type": "ear ring"
+      }
+    ]
