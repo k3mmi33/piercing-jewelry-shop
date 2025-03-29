@@ -5,7 +5,7 @@ body{
      min-height: 100vh;
      background-image: url(wallpaperrr.jpeg);
      background-size: cover;
-     background-repeat: no-repeat;
+     background-repeat: repeat;
      background-position: center;
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -42,24 +42,30 @@ nav li:first-child{
     margin-right: auto;
 }
 #home {
-    background: url('wallpaperrr.jpeg') no-repeat center center/cover; /* Add a background image */
+
     height: 100vh; /* Full viewport height */
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: left;
+    align-items: baseline;
     text-align: left;
-    color: #080808; /* White text for contrast */
+    color: #c7b80e;
 }
 
 .home-content h1 {
-    font-size: 3em;
-    margin: 0;
+
+    border-style: solid double;
+    border-width: thick;
+    border-color: #cb0aa8;
+    align-items: center;
+    font-size: 7em;
+    margin: 50px 0;
+    border-radius: 8px;
+    padding: 5px;
 }
 
 .home-content h2 {
-    font-size: 2em;
-    margin: 10px 0;
+    font-size: 4em;
+    margin: 40px 0;
 }
 
 .home-content h3 {
@@ -102,10 +108,6 @@ nav li:first-child{
     width: 100%;
     font-size: 18px;
     color: #d8cb13;
-}.
-body{
-    margin: 0;
-    font-family: Poppins;
 }
 .container{
     height: 100vh;
@@ -124,6 +126,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+    font-weight: 200;
 }
 .icon-cart{
     position: relative;
@@ -142,16 +145,15 @@ header{
     right: -20px;
 }
 .listProduct .item img{
-    width: 60px;
-    filter: drop-shadow(0 50px 20px #0009);
+    width: 100%;
 }
 .listProduct{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 .listProduct .item{
-    background-color: #EEEEE6;
+    background-color: #f3ea8c;
     padding: 20px;
     border-radius: 20px;
 }
