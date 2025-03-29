@@ -26,7 +26,7 @@ const addDataToHTML = () => {
             newProduct.innerHTML = `
                 <img src="${product.image}" alt="${product.image}">
                 <h2>${product.name}</h2>
-                <div class="price">$${product.price}</div>
+                <div class="price">${product.price}=/</div>
                 <h3>${product.material}</h3>
                 <p>${product.description}</p>
                 <h4>${product.type}</h4>
@@ -84,7 +84,8 @@ if(cart.length > 0){
             <div class="name">
             ${info.name}
             </div>
-            <div class="totalPrice">$${info.price * item.quantity}</div>
+            <div class="totalPrice">
+            ${info.price * item.quantity}=/</div>
             <div class="quantity">
                 <span class="minus"><</span>
                 <span>${item.quantity}</span>

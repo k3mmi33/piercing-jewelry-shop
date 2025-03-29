@@ -15,9 +15,8 @@ body {
     font-family: "Poppins", sans-serif;
     margin: 0;
     min-height: 100vh;
-    background-image: url(wallpaperrr.jpeg);
     background-size: cover;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -101,6 +100,8 @@ nav li:first-child {
 
 /* Home Section */
 #home {
+    background-image: url(wallpaperrr.jpeg);
+    background-size: auto;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -111,28 +112,29 @@ nav li:first-child {
 
 .home-content {
     padding: 0 10%;
-}
-
-.home-content h1 {
     border-style: solid double;
     border-width: thick;
     border-color: #cb0aa8;
-    color: #a89c0b;
+    align-items: normal;
+}
+
+.home-content h1 {
+    color: #ecf008;
     align-items: center;
-    font-size: 7em;
-    margin: 50px 0;
+    font-size: 9em;
+    margin: 30px 0;
     border-radius: 8px;
-    padding: 5px;
+    padding: 7px;
 }
 
 .home-content h2 {
-    color: #a8088f;
+    color: #ded4dd;
     font-size: 4em;
     margin: 40px 0;
 }
 
 .home-content h3 {
-    color: #a89c0b;
+    color: #f0d5e8;
     font-size: 1.5em;
     margin: 10px 0;
 }
@@ -142,9 +144,9 @@ nav li:first-child {
 }
 
 .social-links a {
-    margin: 0 10px;
+    margin: 0 20px;
     font-size: 2em;
-    color: #4b4747;
+    color: #f3d1f1;
     transition: color 0.3s;
 }
 
@@ -171,7 +173,7 @@ nav li:first-child {
 
 /* Products Section */
 #products {
-    background-image: url(wallpaperrr.jpeg);
+    background-color: #f3c4ec;
     background-size: cover;
     background-repeat: repeat;
     padding-top: 120px;
