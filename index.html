@@ -5,105 +5,190 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gems&Pokes Shop</title>
     <link rel="stylesheet" href="styles.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body class="showCart">
+<body>
     <nav>
         <ul class="sidebar">
-           <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-           <li><a href="#">Home</a></li>
-           <li><a href="#">Products</a></li>
-           <li><a href="#" >Cart</a></li>
-           <li><a href="#" >Subscribe</a></li>
-           <li><a href="#" >Contact</a></li>
+           <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+           <li><a href="#home">Home</a></li>
+           <li><a href="#products">Products</a></li>
+           <li><a href="#subscribe">Subscribe</a></li>
+           <li><a href="#contact">Contact</a></li>
          </ul>
 
          <ul>
-            <li><a href="#">Gems&Pokes Shop</a></li>
-            <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            <li><a href="#home">Gems&Pokes Shop</a></li>
+            <li onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
          </ul>
-            </nav>
+    </nav>
 
-
-        <section id="home">
-            <div class="home-content">
-                <h1>Welcome</h1>
-                <h2>Come get some</h2>
-                <h3>Affordable prices</h3>
-                <div class="social-links">
-                    <a href="https://snapchat.com/add/t.k3mmie" target="_blank" title="Snapchat"><i class="fab fa-snapchat-square"></i></a>
-                    <a href="mailto:kemmienatasha@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
-                    <a href="https://github.com/pussncrocx" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                </div>
-                <a href="#products">Shop Now</a>
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-content">
+            <h1>Welcome</h1>
+            <h2>Come get some quality jewelry</h2>
+            <h3>Affordable prices for everyone.</h3>
+            <div class="social-links">
+                <a href="https://snapchat.com/add/t.k3mmie" target="_blank" title="Snapchat"><i class="fab fa-snapchat-square"></i></a>
+                <a href="mailto:kemmienatasha@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/pussncrocx" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
             </div>
-        </section>
-        <section id="Products">
-            <div class="container">
+            <a href="#products" class="shop-now-btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <div class="container">
             <header>
                 <div class="title">PRODUCT LIST</div>
                 <div class="icon-cart">
                     <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
-                      </svg>
-
+                    </svg>
                     <span>0</span>
                 </div>
             </header>
             <div class="listProduct">
-                    <div class="item">
-                    <img src="images/12 Colors 16G Dangle Diamond Septum Jewelry - silver-opal _ 8mm.jpeg" alt="">
-                    <h2>NAME PRODUCT</h2>
-                    <div class="prices">800.00</div>
-                    <h3>Material</h3>
-                    <p>Description</p>
-                    <h4>type</h4>
-                    <button class="addCart">
-                        Add to Cart
-                    </button>
+                <!-- Products will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscribe Section -->
+    <section id="subscribe">
+        <div class="subscribe-container">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Get updates on new products, exclusive offers and discounts!</p>
+            <form class="subscribe-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+            <div class="benefits">
+                <div class="benefit">
+                    <i class="fas fa-gift"></i>
+                    <p>Exclusive Offers</p>
+                </div>
+                <div class="benefit">
+                    <i class="fas fa-bell"></i>
+                    <p>New Arrivals</p>
+                </div>
+                <div class="benefit">
+                    <i class="fas fa-percent"></i>
+                    <p>Special Discounts</p>
                 </div>
             </div>
         </div>
-        <div class="cartTab">
-            <h1>Shopping Cart</h1>
-            <div class="listCart">
-                <div class="item">
-                    <div class="image">
-                        <img src="images/12 Colors 16G Dangle Diamond Septum Jewelry - silver-opal _ 8mm.jpeg" alt="">
-                    </div>
-                    <div class="name">
-                        Name
-                    </div>
-                    <div class="totalPrice">
-                        800.00
-                    </div>
-                    <div class="quantity">
-                        <span class="minus"></span>
-                        <span>1</span>
-                        <span class="plus"></span>
-                    </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p>Have questions? We're here to help!</p>
+
+            <div class="contact-methods">
+                <div class="contact-method">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>kemmienatasha@gmail.com</p>
+                </div>
+                <div class="contact-method">
+                    <i class="fab fa-snapchat-square"></i>
+                    <h3>Snapchat</h3>
+                    <p>t.k3mmie</p>
+                </div>
+                <div class="contact-method">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <p>pussncrocx</p>
                 </div>
             </div>
 
-            <div class="btn">
-                <button class="close">CLOSE</button>
-                <button class="checkOut">Check Out</button>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>Gems&Pokes Shop</h3>
+                <p>Quality body jewelry for everyone</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#subscribe">Subscribe</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Connect With Us</h4>
+                <div class="social-icons">
+                    <a href="https://snapchat.com/add/t.k3mmie" target="_blank"><i class="fab fa-snapchat-square"></i></a>
+                    <a href="mailto:kemmienatasha@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/pussncrocx" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
             </div>
         </div>
-        </section>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Gems&Pokes Shop. All rights reserved.</p>
+        </div>
+    </footer>
 
+    <!-- Shopping Cart -->
+    <div class="cartTab">
+        <h1>Shopping Cart</h1>
+        <div class="listCart">
+            <!-- Cart items will be loaded dynamically -->
+        </div>
+        <div class="btn">
+            <button class="close">CLOSE</button>
+            <button class="checkOut">Check Out</button>
+        </div>
+    </div>
 
+    <script src="script.js"></script>
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = 'flex';
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = 'none';
+        }
 
-      <script src="script.js"></script>
-     <script>
-    function showSidebar(){
-        const sidebar = document.querySelector('.sidebar')
-        sidebar.style.display = 'flex'
-    }
-    function hideSidebar(){
-        const sidebar = document.querySelector('.sidebar')
-        sidebar.style.display = 'none'
-    }
-      </script>
-      </body>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 70, // Offset for the navbar
+                        behavior: 'smooth'
+                    });
+
+                    // Hide sidebar after clicking a link (on mobile)
+                    if (window.innerWidth <= 768) {
+                        hideSidebar();
+                    }
+                }
+            });
+        });
+    </script>
+</body>
 </html>
