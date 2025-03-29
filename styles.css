@@ -106,7 +106,6 @@ nav li:first-child {
     flex-direction: column;
     align-items: baseline;
     text-align: left;
-    color: #c7b80e;
     padding-top: 70px;
 }
 
@@ -118,6 +117,7 @@ nav li:first-child {
     border-style: solid double;
     border-width: thick;
     border-color: #cb0aa8;
+    color: #a89c0b;
     align-items: center;
     font-size: 7em;
     margin: 50px 0;
@@ -126,11 +126,13 @@ nav li:first-child {
 }
 
 .home-content h2 {
+    color: #a8088f;
     font-size: 4em;
     margin: 40px 0;
 }
 
 .home-content h3 {
+    color: #a89c0b;
     font-size: 1.5em;
     margin: 10px 0;
 }
