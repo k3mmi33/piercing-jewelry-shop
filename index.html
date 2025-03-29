@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gems&Pokes Shop</title>
     <link rel="stylesheet" href="styles.css">
 
 </head>
-<body>
+<body class="showCart">
     <nav>
         <ul class="sidebar">
            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
@@ -38,25 +37,53 @@
                 </div>
             </div>
         </section>
-        <section><div class="container">
+        <section>
+            <div class="container">
             <header>
                 <div class="title">PRODUCT LIST</div>
                 <div class="icon-cart">
-                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
-                    </svg>
+                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                      </svg>
+
                     <span>0</span>
                 </div>
             </header>
             <div class="listProduct">
-
+                    <div class="item">
+                    <img src="images/12 Colors 16G Dangle Diamond Septum Jewelry - silver-opal _ 8mm.jpeg" alt="">
+                    <h2>NAME PRODUCT</h2>
+                    <div class="prices">800.00</div>
+                    <h3>Material</h3>
+                    <p>Description</p>
+                    <h4>type</h4>
+                    <button class="addCart">
+                        Add to Cart
+                    </button>
+                </div>
             </div>
         </div>
         <div class="cartTab">
             <h1>Shopping Cart</h1>
             <div class="listCart">
-
+                <div class="item">
+                    <div class="image">
+                        <img src="images/12 Colors 16G Dangle Diamond Septum Jewelry - silver-opal _ 8mm.jpeg" alt="">
+                    </div>
+                    <div class="name">
+                        Name
+                    </div>
+                    <div class="totalPrice">
+                        800.00
+                    </div>
+                    <div class="quantity">
+                        <span class="minus"></span>
+                        <span>1</span>
+                        <span class="plus"></span>
+                    </div>
+                </div>
             </div>
+
             <div class="btn">
                 <button class="close">CLOSE</button>
                 <button class="checkOut">Check Out</button>
@@ -64,7 +91,7 @@
         </div>
         </section>
 
-        <section id="subscribe"
+        <section id="subscribe">
             <div class="subscribe">
                <h1>Subscribe</h1>
                 <p>To get special offers and VIP treatment:</p>
@@ -73,7 +100,8 @@
             </div>
          </section>
     </main>
-    <footer id="footer">
+    <section>
+        <footer id="footer">
         <h4>Contact</h4>
         <p>Questions? Go ahead.</p>
         <form action="/action_page.php" target="_blank">
@@ -84,10 +112,10 @@
             <button type="submit" style="padding: 10px; background-color: black; color: white;">Send</button>
         </form>
     </footer>
+</section>
 
-
+      <script src="script.js"></script>
      <script>
-
     function showSidebar(){
         const sidebar = document.querySelector('.sidebar')
         sidebar.style.display = 'flex'
